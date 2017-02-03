@@ -19,6 +19,6 @@ C# and JS Kata for the Rock Paper Scissors Spock Lizard game by Sam Kass and Kar
 
 
 
-## The big band theory sketch
-[![The big band theory sketch](https://img.youtube.com/vi/E9oNnKxhDcI/0.jpg)](https://www.youtube.com/watch?v=E9oNnKxhDcI)
+## Sketch from "The big bang theory"
+[![The big bang theory's sketch](https://img.youtube.com/vi/E9oNnKxhDcI/0.jpg)](https://www.youtube.com/watch?v=E9oNnKxhDcI)
 
