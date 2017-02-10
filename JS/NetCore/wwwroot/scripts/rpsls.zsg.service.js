@@ -19,6 +19,13 @@ class ZSGameService {
     }
 
     evaluate(shape, oponent) {
-        return this.getRule(shape).evaluateAgainst(oponent);
+        let shapeRule = this.getRule(shape);
+        let oponentRule = this.getRule(oponent);
+        if ((shapeRule instanceof ZSGameRule) && (oponentRule instanceof ZSGameRule)) {
+            return this.getRule(shape).evaluateAgainst(oponent);
+        }
+        else {
+            return Results.Error;
+        }
     }
 }
