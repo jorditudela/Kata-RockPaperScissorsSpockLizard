@@ -17,8 +17,8 @@
     }
 
     evaluateAgainst(anOponent) {
-        if (this.id === anOponent) return Tie;
-        return this.defeats.includes(anOponent) ? Win : Lose;
+        if (this.id === anOponent) return Results.Tie;
+        return this.defeats.includes(anOponent) ? Results.Win : Results.Lose;
     }
 
     getName(anOponent) {

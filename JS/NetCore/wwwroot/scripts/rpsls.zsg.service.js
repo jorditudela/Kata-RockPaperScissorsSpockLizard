@@ -1,7 +1,4 @@
-﻿const Tie = "Tie";
-const Win = "Win";
-const Lose = "Lose";
-
+﻿
 class ZSGameService {
     constructor() {
         this.rules = {};
